@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-image=Image.open("images/image.png")
+image=Image.open("financial-calculator/images/image.png")
 resized_image=image.resize((800,200))
 
 
